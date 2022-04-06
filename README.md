@@ -1,5 +1,7 @@
 # antilol.py
   
+saw a similar snippet online that bans league players from the server, however it's too much so i decided to publicly shame every league player
+  
 the code itself is pretty self-explanatory, however there are some things you should raise attention to, especially in the dotenv (`.env`) variables file, located in the root directory.
 
 - `DISCORD_TOKEN` : your discord OAuth2 token, found in your discord's devsite (in .env : `DISCORD_TOKEN`)

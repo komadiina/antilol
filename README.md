@@ -13,6 +13,7 @@ ___
 
 ```py
 # ... in class MyClient(discord.Client) ...
+client = discord.Client()
 
 async def on_ready(self):
     # ...

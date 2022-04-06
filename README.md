@@ -12,7 +12,9 @@ ___
 *Main code:*
 
 ```py
-async def on_ready():
+# ... in class MyClient(discord.Client) ...
+
+async def on_ready(self):
     # ...
     client.check_for_nolifers.start() # loop's start signal
     # ...
